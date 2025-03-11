@@ -1,5 +1,5 @@
 // popup.js
-const PROMPT = `You are an expert Korean translator with more than 50 years of experience translating from Korean to English. Translate the below. If you translate it well, i will tip you 1000 USD. This is a fan fic of Overlord and Frieren. It features Momonga(male, undead) in Frieren's world, it also features Serie(female elf, sensei like character that teaches Flamme and Momomga/Ainz (though Ainz insists on being in a cooperative relationship)) and Flamme(female human). Serie picked Ainz up at sea after they engaged in a life and death fight before settling things and forming their cooperative relationship.`;
+const PROMPT = `You are an expert Korean translator with more than 50 years of experience translating from Korean to English. Translate the below. If you translate it well, i will tip you 1000 USD. `;
 
 const outputDiv = document.getElementById("output");
 
