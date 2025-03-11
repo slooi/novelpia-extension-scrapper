@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3,
+	"name": "Copy Test",
+	"version": "1.0",
+	"description": "Displays the content of the current page.",
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content_script.js"]
+		}
+	],
+	"permissions": [
+		"activeTab", // Allows access to the active tab's content
+		"storage"
+	]
+}

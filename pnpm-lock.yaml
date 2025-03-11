@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@types/firefox-webext-browser':
+        specifier: ^120.0.4
+        version: 120.0.4
+
+packages:
+
+  '@types/firefox-webext-browser@120.0.4':
+    resolution: {integrity: sha512-lBrpf08xhiZBigrtdQfUaqX1UauwZ+skbFiL8u2Tdra/rklkKadYmIzTwkNZSWtuZ7OKpFqbE2HHfDoFqvZf6w==}
+
+snapshots:
+
+  '@types/firefox-webext-browser@120.0.4': {}
