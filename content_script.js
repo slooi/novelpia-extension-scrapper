@@ -12,6 +12,7 @@ browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
 		sendResponse({
 			title: getTextContent(".menu-title-wrapper"),
 			text: getTextContent("#novel_drawing"),
+			html: document.body.innerHTML
 		});
 	}
 });

@@ -16,7 +16,18 @@ window.onload = function () {
 				if (response) {
 					console.log("response", response);
 					displayData(`
-                        ${PROMPT}
+                        ${response.html}`);
+				}
+			})
+			.catch((error) => {
+				console.error("Error sending message:", error);
+			});
+	});
+};
+
+
+/* 
+
 
                         ${response.title}                        
 
@@ -25,10 +36,4 @@ window.onload = function () {
 							.map((line) => line.trim())
 							.join("\n")}
                         `);
-				}
-			})
-			.catch((error) => {
-				console.error("Error sending message:", error);
-			});
-	});
-};
+*/
